@@ -1,0 +1,81 @@
+const cards = [
+  {
+    id: 1,
+    topic: "Web Design",
+    title: "Создать дизайн главной страницы",
+    date: "30.10.23",
+    status: "Без статуса",
+  },
+  {
+    id: 2,
+    topic: "Research",
+    title: "Исследование конкурентов",
+    date: "30.10.23",
+    status: "Без статуса",
+  },
+  {
+    id: 3,
+    topic: "Web Design",
+    title: "Сделать адаптивную версию",
+    date: "31.10.23",
+    status: "Без статуса",
+  },
+  {
+    id: 4,
+    topic: "Copywriting",
+    title: "Подготовить тексты для сайта",
+    date: "01.11.23",
+    status: "Без статуса",
+  },
+  {
+    id: 5,
+    topic: "Web Design",
+    title: "Нарисовать иконки",
+    date: "02.11.23",
+    status: "Без статуса",
+  },
+  {
+    id: 6,
+    topic: "Research",
+    title: "Собрать требования к проекту",
+    date: "03.11.23",
+    status: "Нужно сделать",
+  },
+  {
+    id: 7,
+    topic: "Research",
+    title: "Проверить пользовательский сценарий",
+    date: "04.11.23",
+    status: "В работе",
+  },
+  {
+    id: 8,
+    topic: "Copywriting",
+    title: "Отредактировать описание проекта",
+    date: "05.11.23",
+    status: "В работе",
+  },
+  {
+    id: 9,
+    topic: "Web Design",
+    title: "Обновить макет карточки",
+    date: "06.11.23",
+    status: "В работе",
+  },
+  {
+    id: 10,
+    topic: "Research",
+    title: "Провести проверку гипотез",
+    date: "07.11.23",
+    status: "Тестирование",
+  },
+  {
+    id: 11,
+    topic: "Research",
+    title: "Финальная проверка задачи",
+    date: "08.11.23",
+    status: "Готово",
+  },
+];
+
+export default cards;

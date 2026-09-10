@@ -78,7 +78,6 @@ body {
     color: #FFFFFF;
 }
 
-.pop-user-set:target,
 .pop-exit:target,
 .pop-new-card:target,
 .pop-browse:target {
@@ -756,6 +755,10 @@ body {
 }
 .header__user {
     height: 20px;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    font: inherit;
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
@@ -777,7 +780,7 @@ body {
     padding: 0;
 }
 .header__pop-user-set {
-    display: none;
+    display: block;
     position: absolute;
     top: 61px;
     right: 0;
@@ -1086,4 +1089,13 @@ body {
     .pop-exit__form-group {
         display: block;
     }
+}
+.loader {
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #94A6BE;
+    font-size: 18px;
+    font-weight: 500;
 }
